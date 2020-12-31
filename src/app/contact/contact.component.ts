@@ -40,10 +40,10 @@ export class ContactComponent implements OnInit {
       'required': 'Email is required.',
       'email': 'Email not in a valid format.'
     }
-  }
+  };
 
   constructor(private fb: FormBuilder) { 
-    this.createForm();        
+    this.createForm();
   }
 
   ngOnInit(): void {

@@ -51,6 +51,44 @@
                     -- {{dishdetail.author}} {{dishdetail.date | date}}
                 </p>
             </mat-list-item>
+
+            <mat-list-item *ngIf="dishcommentForm.status == 'VALID'">
+                <p matLine>
+                    {{dishcommentForm.value.comment}} 
+                </p>
+                <p matLine>
+                    {{dishcommentForm.value.rating}} Starts
+                </p>
+                <p matLine>
+                    {{dishcommentForm.value.author}} 
+                </p>
+            </mat-list-item>
+
+            <!-- <p>{{ dishcommentForm.value | json }} {{ dishcommentForm.status | json }}</p> -->
+            <form novalidate [formGroup]="dishcommentForm" #fform="ngForm" (ngSubmit)="onSubmit()">
+                <p>
+                    <mat-form-field class="half-width">
+                        <input matInput formControlName="author" placeholder="Name" type="text">
+                        <mat-error *ngIf="formErrors.author">
+                            {{formErrors.author }}
+                        </mat-error>
+                    </mat-form-field>
+                </p>
+                <p>
+                    <mat-slider formControlName="rating" min="1" max="5" thumbLabel tickInterval="1" ></mat-slider>
+                </p>
+                <p>
+                    <mat-form-field class="half-width">
+                        <textarea matInput formControlName="comment" placeholder="Your Comment" rows=12></textarea>                        
+                        <mat-error *ngIf="formErrors.comment">
+                            {{formErrors.comment }}
+                        </mat-error>
+                    </mat-form-field>
+                </p>
+                <button type="submit" mat-button class="background-primary text-floral-white"
+                    [disabled]="dishcommentForm.invalid">Submit</button>
+            </form>
+
         </mat-list> 
     </div>
 
