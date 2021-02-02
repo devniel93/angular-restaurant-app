@@ -1,3 +1,4 @@
 [0107/161803.435:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
 [0107/203942.175:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
 [0108/000055.454:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0109/034303.840:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\dolano\AppData\Local\Temp\karma-44537943\Crashpad\attachments\7c3913c6-d44a-48af-9f92-de5ec5fd305e: The system cannot find the path specified. (0x3)
