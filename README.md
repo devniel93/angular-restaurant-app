@@ -6,6 +6,14 @@ This repository contains the codebase for the Angular App "Confusion Restaurant"
 
 <br/>
 
+## Module Summaries
+* 01 - [Angular Overwiew](https://github.com/devniel93/angular-restaurant-app/wiki/Module-01---Angular-Overwiew)
+* 02 - [Angular Services, Routing and SPA](https://github.com/devniel93/angular-restaurant-app/wiki/Module-02-Angular-Services,-Routing-and-SPA)
+* 03 - [Angular Forms, Promise and RxJS](https://github.com/devniel93/angular-restaurant-app/wiki/Module-03-Angular-Forms,-Promise-and-RxJS)
+* 04 - [Angular and Client-Server Communication](https://github.com/devniel93/angular-restaurant-app/wiki/Module-04-Angular-and-Client-Server-Communication)
+
+<br/>
+
 ## To Run Project
 
 ### Install json-server
