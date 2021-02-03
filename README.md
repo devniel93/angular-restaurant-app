@@ -1,27 +1,49 @@
-# ConFusion
+<img src="https://github.com/devniel93/angular-restaurant-app/blob/master/src/assets/images/angular-logo.svg" align="right" width="131" height="143">
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
+# Angular App "ConFusion Restaurant"
 
-## Development server
+This repository contains the codebase for the Angular App "Confusion Restaurant", as well as my personal notes and summaries about Course of "Front-End Javascript Frameworks: Angular" from [Coursera](https://www.coursera.org/learn/angular).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<br/>
 
-## Code scaffolding
+## Module Summaries
+* 01 - [Angular Overwiew](https://github.com/devniel93/angular-restaurant-app/wiki/Module-01---Angular-Overwiew)
+* 02 - [Angular Services, Routing and SPA](https://github.com/devniel93/angular-restaurant-app/wiki/Module-02-Angular-Services,-Routing-and-SPA)
+* 03 - [Angular Forms, Promise and RxJS](https://github.com/devniel93/angular-restaurant-app/wiki/Module-03-Angular-Forms,-Promise-and-RxJS)
+* 04 - [Angular and Client-Server Communication](https://github.com/devniel93/angular-restaurant-app/wiki/Module-04-Angular-and-Client-Server-Communication)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<br/>
 
-## Build
+## To Run Project
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Install json-server
 
-## Running unit tests
+Run `npm install -g json-server`. Create a new folder named json-server in some location on the computer and paste in this folder the file [db.json](https://github.com/devniel93/angular-restaurant-app/blob/master/src/assets/data/db.json).
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `json-server --watch db.json` in the location of the json-server folder. This startup a light server at port number 3000.
 
-## Running end-to-end tests
+<br/>
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### Run Angular App
 
-## Further help
+Run `ng serve --open` for a dev server. The app will automatically open in your default browser with the address `http://localhost:4200/` and reload if you change any of the source files.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<br/>
+
+## Build to Prod
+
+Run `ng build --prod` to build the project. The build artifacts will be stored in the `dist/` directory. 
+
+<br/>
+
+## To Run Unit Tests 
+Run `ng test` using Jasmine and Karma.
+
+<br/>
+
+## To Run End-To-End Tests
+Run `ng e2e` using Jasmine and Protractor.
+
+<br/>
+
+*This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
