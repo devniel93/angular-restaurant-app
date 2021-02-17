@@ -14,7 +14,7 @@ https://coursera.org/share/d7b0b3c7f9c314e88b7b8c9b01bd8ba6
 * 01 - [Angular Overwiew](https://github.com/devniel93/angular-restaurant-app/wiki/Module-01---Angular-Overwiew)
 * 02 - [Angular Services, Routing and SPA](https://github.com/devniel93/angular-restaurant-app/wiki/Module-02-Angular-Services,-Routing-and-SPA)
 * 03 - [Angular Forms, Promise and RxJS](https://github.com/devniel93/angular-restaurant-app/wiki/Module-03-Angular-Forms,-Promise-and-RxJS)
-* 04 - [Angular and Client-Server Communication](https://github.com/devniel93/angular-restaurant-app/wiki/Module-04-Angular-and-Client-Server-Communication)
+* 04 - [Client Server Communication and Angular Testing](https://github.com/devniel93/angular-restaurant-app/wiki/Module-04-Client-Server-Communication-and-Angular-Testing)
 
 <br/>
 
