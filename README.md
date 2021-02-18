@@ -4,17 +4,18 @@
 
 This repository contains the codebase for the Angular App "Confusion Restaurant", as well as my personal notes and summaries about Course of "Front-End Javascript Frameworks: Angular" from [Coursera](https://www.coursera.org/learn/angular).
 
-
-## Course Certificate
-https://coursera.org/share/d7b0b3c7f9c314e88b7b8c9b01bd8ba6
-
-<img src="https://github.com/devniel93/angular-restaurant-app/blob/master/src/assets/wiki/course-certificate-devniel93.png" align="center" width="500" height="300">
-
 ## Module Summaries
 * 01 - [Angular Overwiew](https://github.com/devniel93/angular-restaurant-app/wiki/Module-01---Angular-Overwiew)
 * 02 - [Angular Services, Routing and SPA](https://github.com/devniel93/angular-restaurant-app/wiki/Module-02-Angular-Services,-Routing-and-SPA)
 * 03 - [Angular Forms, Promise and RxJS](https://github.com/devniel93/angular-restaurant-app/wiki/Module-03-Angular-Forms,-Promise-and-RxJS)
 * 04 - [Client Server Communication and Angular Testing](https://github.com/devniel93/angular-restaurant-app/wiki/Module-04-Client-Server-Communication-and-Angular-Testing)
+
+<br/>
+
+## Course Certificate
+https://coursera.org/share/d7b0b3c7f9c314e88b7b8c9b01bd8ba6
+
+<img src="https://github.com/devniel93/angular-restaurant-app/blob/master/src/assets/wiki/course-certificate-devniel93.png" align="center" width="500" height="300">
 
 <br/>
 
